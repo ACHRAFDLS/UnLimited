@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: "unbuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 2px white solid;
+}
+body {
+    background:
+    linear-gradient(to right , rgb(58, 4, 72) , rgb(51, 6, 62),rgba(23, 2, 29, 0.545));
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#logo{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.logo b{
+    color: rgb(51, 6, 62);
+    font-size: 35px;
+}
+#logo:hover{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 7px;
+    left: 17px;
+    }
+.container {
+        background-image: 
+        linear-gradient( to right, #01022de5 30%,#00000088),
+        url(https://media.discordapp.net/attachments/1234178971651014727/1236372876937003098/Tall_Banner_x1.png?ex=6639bfb8&is=66386e38&hm=72d625cb585f7c9ea208d91f5563a52291e1615558847e6d7386644db823e105&=&format=webp&quality=lossless&width=1024&height=340);
+        
+        background-position: center;
+        margin: 50px;
+        width: 2100000px;
+        height: 640px;
+        border-radius: 15px;
+}
+.container:hover{
+    background-image: 
+    linear-gradient( to right, #01022de5 30%,transparent),
+    url(https://media.discordapp.net/attachments/1234178971651014727/1236372876937003098/Tall_Banner_x1.png?ex=6639bfb8&is=66386e38&hm=72d625cb585f7c9ea208d91f5563a52291e1615558847e6d7386644db823e105&=&format=webp&quality=lossless&width=1024&height=340);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.content p{
+    margin-top: 0;
+    width: 350px;
+    padding: 20px 0;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    top: 100vh;
+    font-size: 30px;
+    border: 2px solid #123;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: 1.5s;
+}
+h3:hover{
+    position: absolute;
+    top: 98vh;
+    background-color: #123;
+    color: white;
+}
+.box-designs{
+    display: flex;
+    width: 100%;
+    height: 260px;
+    flex-wrap: wrap;
+}
+.image-1{
+    width: 450px;
+    height: 250px;
+    border: 3px #123 solid;
+    border-radius: 8px;
+    transition: 1.5s;
+    position: absolute;
+    top: 118vh;
+    left:200px
+}
+.image-1:hover, .image-2:hover{
+    position: absolute;
+    top: 115vh;
+}
+.image-2{
+    width: 450px;
+    height: 250px;
+    border: 3px #123 solid;
+    border-radius: 8px;
+    transition: 1.5s;
+    position: absolute;
+    top: 118vh;
+    left:680px
+}
+.image-3{
+    width: 450px;
+    height: 250px;
+    border: 3px #123 solid;
+    border-radius: 8px;
+    transition: 1.5s;
+    position: absolute;
+    top: 160vh;
+    left:680px
+}
+.image-4{
+    width: 450px;
+    height: 250px;
+    border: 3px #123 solid;
+    border-radius: 8px;
+    transition: 1.5s;
+    position: absolute;
+    top: 160vh;
+    left:200px
+}
+.image-3:hover, .image-4:hover{
+    position: absolute;
+    top: 157vh;
+}
+#Branding{
+    position: absolute;
+    top: 210vh;
+    font-size: 30px;
+    border: 2px solid #123;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: 1.5s;
+}
+#Branding:hover{
+    position: absolute;
+    top: 207vh;
+    background-color: #123;
+    color: white;
+}
+.Branding-Works{
+    display: flex;
+    width: 100%;
+    height: 260px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Branding-1{
+    width: 450px;
+    height: 250px;
+    border: 3px #123 solid;
+    border-radius: 8px;
+    transition: 1.5s;
+    position: absolute;
+    top: 225vh;
+    left:200px
+}
+.Branding-2{
+    width: 450px;
+    height: 250px;
+    border: 3px #123 solid;
+    border-radius: 8px;
+    transition: 1.5s;
+    position: absolute;
+    top: 225vh;
+    left:680px
+}
+.Branding-1:hover, .Branding-2:hover{
+    position: absolute;
+    top: 222vh;
+}
+.About{
+    width: 90%;
+    height: 720px;
+    background-color: #ffffff3d;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 270vh;
+    border-radius: 17px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.About h2{
+    color: #777;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 10px 10px 10px #777;
+    padding: 10px;
+    transition: 1.5s;
+    position: absolute;
+    right: 518px;
+}
+.About h2:hover{
+    color: #123;
+    font-weight: 700;
+    text-shadow: 20px 20px 20px #123;
+}
+#text-about{
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    color: #123;
+    transition: 3s;
+}
+#text-about:hover{
+    color: #888888;
+    font-weight: 900;
+}
+.About p{
+    color: #777;
+    position: absolute;
+    top: 600px;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 900;
+    transition: 3s;
+}
+.About .text:hover{
+    color: #123;
+}
+.photo-about{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    border-radius: 8px;
+    border: 3px #123 solid;
+    transition: 1.5s;
+}
+.photo-about:hover{
+    position: absolute;
+    top: 247px;
+    width: 50%;
+    height: 300px;
+}
+.discord{
+    width: 32px;
+    height: 32px;
+    background-color: #123;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 670px;
+    right: 585px;
+    transition: .5s;
+}
+.discord:hover{
+    background-color: #777;
+}
